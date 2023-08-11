@@ -1,0 +1,29 @@
+.food-list {
+    padding: 100px 0;
+  }
+  
+  .food-list .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 10px;
+  }
+  
+  .food-list__card {
+    width: 260px;
+  
+    overflow: hidden;
+    text-align: center;
+  
+    background: #312F30;
+    border-radius: 10px;
+  }
+
+  .container {
+    box-sizing: border-box;
+  
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
